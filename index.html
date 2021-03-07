@@ -11,17 +11,17 @@
         display: block;
         padding: 10px;
         max-width: 150px;
-        margin: 10px auto;
         border: 2px solid;
         border-radius: 5px;
         text-decoration: none;
+        margin: 10px auto 20px;
       }
     </style>
   </head>
   <body>
     <div class="main">
       <h3>AutoBop | A Bookmarklet</h3>
-      <a class="link" href="javascript:(function(){function bop(){let el = document.getElementsByClassName('awesome-button')[0];if(el){let go = new MouseEvent('click',{bubbles:true,cancelable:true,view:window});return !el.dispatchEvent(go);}}window.bopping=setInterval(bop,20000);})()">
+      <a class="link" href="javascript:(function(){function bop(){let el = document.getElementsByClassName('awesome-button')[0];if(el){let go = new MouseEvent('click',{bubbles:true,cancelable:true,view:window});return !el.dispatchEvent(go);}}window.bopping=setInterval(bop,5000);})()">
         <strong>The AutoBop Link</strong>
       </a>
       <strong>Drag The Link Above To Your Bookmarks Bar</strong>
