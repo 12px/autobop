@@ -1,2 +1,3 @@
-# autobop
-A Quick Auto-Bop Bookmarklet for Turntable.fm
+# [Get Autobop](https://12px.github.io/autobop/index.html)
+**[Get Autobop](https://12px.github.io/autobop/index.html)**:
+A Quick Auto-Awesome Bookmarklet for Turntable.fm
